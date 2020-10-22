@@ -30,6 +30,7 @@ a {
     color: $link-hover-color;
   }
 }
+// TODO GTB-3: * 合理的使用了flex
 .header {
   display: flex;
   flex-direction: column;
@@ -66,6 +67,7 @@ a {
 
 .content {
   background-color: $white;
+  // TODO GTB-4: - 使用shorthand
   margin-top: 100px;
   margin-bottom: 50px;
   margin-left: 25%;
